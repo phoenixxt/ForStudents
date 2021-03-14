@@ -1,0 +1,8 @@
+package com.githubuiviewer.old.datasource.model
+
+import com.google.gson.annotations.SerializedName
+
+data class ReadMeModel(
+    @SerializedName("content")
+    val content: String
+)

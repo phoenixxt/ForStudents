@@ -1,0 +1,10 @@
+package com.githubuiviewer.old.datasource.model
+
+import com.google.gson.annotations.SerializedName
+
+data class IssueResponse(
+    @SerializedName("number") val number: Int,
+    @SerializedName("title") val title: String,
+    @SerializedName("user") val user: UserResponse,
+    @SerializedName("comments") val comments: Int
+)

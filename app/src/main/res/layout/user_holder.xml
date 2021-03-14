@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.githubuiviewer.ui.UserGroup
+    <com.githubuiviewer.old.ui.UserGroup
         android:id="@+id/ug_user"
         android:padding="@dimen/usergroug_padding"
         android:layout_width="match_parent"

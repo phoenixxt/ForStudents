@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:clickable="true"
     android:focusable="true"
-    tools:context=".ui.projectScreen.issues.BriefInfoIssuesFragment">
+    tools:context=".old.ui.projectScreen.issues.BriefInfoIssuesFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_issues"
